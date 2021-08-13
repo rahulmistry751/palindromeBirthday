@@ -22,7 +22,6 @@ checkBtn.addEventListener("click",()=>{
 function checkPalindrome(){
     // Split the input year-month-day into array
     let date=dateInput.value.split("-");
-    console.log(date);
     // Save date in object
     let dateObj={
         "year":date[0],
